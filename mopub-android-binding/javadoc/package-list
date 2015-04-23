@@ -1,0 +1,15 @@
+com.mopub.common
+com.mopub.common.event
+com.mopub.common.factories
+com.mopub.common.logging
+com.mopub.common.util
+com.mopub.exceptions
+com.mopub.mobileads
+com.mopub.mobileads.factories
+com.mopub.mobileads.resource
+com.mopub.mobileads.util
+com.mopub.mobileads.util.vast
+com.mopub.mraid
+com.mopub.nativeads
+com.mopub.nativeads.factories
+com.mopub.network
