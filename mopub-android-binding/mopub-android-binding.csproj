@@ -79,7 +79,4 @@
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\nineoldandroids-2.4.0.jar" />
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\support-v4-18.0.0.jar" />
-  </ItemGroup>
 </Project>

@@ -5,7 +5,6 @@
   <attr path="/api/package[@name='com.mopub.mobileads']" name="managedName">MoPub.MobileAds</attr>
   <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
 
-  
   <remove-node path="/api/package[@name='com.mopub.nativeads']"/>
   <remove-node path="/api/package[@name='com.mopub.nativeads.factories']"/>
   <remove-node path="/api/package[@name='com.mopub.common.factories']"/>
@@ -26,15 +25,13 @@
   <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[starts-with(@name, 'Vast')]" />
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='HtmlInterstitial']"/>
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='ResponseBodyInterstitial']"/>
-
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='VideoDownloader.VideoDownloaderListener']" name="visibility" />
+  
   <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='BaseInterstitialActivity']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventInterstitialAdapter.CustomEventInterstitialAdapterListener']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventRewardedVideo.CustomEventRewardedVideoListener']" name="visibility">public</attr>
 
   <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']" />
-  
   <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventInterstitialAdapter.CustomEventInterstitialAdapterListener']" />
   <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventRewardedVideo.CustomEventRewardedVideoListener']" />
-
-
 </metadata>
