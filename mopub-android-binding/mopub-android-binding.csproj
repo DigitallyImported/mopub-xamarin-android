@@ -50,7 +50,7 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
-    <LibraryProjectZip Include="Jars\mopub-sdk-4.5.0.aar" />
+    <LibraryProjectZip Include="Jars\mopub-android-sdk-4.5.0.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -71,12 +71,12 @@
     <EmbeddedReferenceJar Include="Jars\vungle-publisher-adaptive-id-3.3.4.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\dagger-1.2.2.jar" />
+    <EmbeddedReferenceJar Include="Jars\nineoldandroids-2.4.0.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\javax.inject-1.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\nineoldandroids-2.4.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\dagger-1.2.2.jar" />
   </ItemGroup>
 </Project>
