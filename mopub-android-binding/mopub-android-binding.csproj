@@ -79,4 +79,7 @@
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\dagger-1.2.2.jar" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedReferenceJar Include="Jars\adcolony.jar" />
+  </ItemGroup>
 </Project>
