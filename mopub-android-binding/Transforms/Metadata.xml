@@ -1,6 +1,5 @@
 ﻿<metadata>
     <attr path="/api/package[@name='com.mopub.common']" name="managedName">MoPub.Common</attr>
-    <attr path="/api/package[@name='com.mopub.common.event']" name="managedName">MoPub.Common.Events</attr>
     <attr path="/api/package[@name='com.mopub.exceptions']" name="managedName">MoPub.Exceptions</attr>
     <attr path="/api/package[@name='com.mopub.mobileads']" name="managedName">MoPub.MobileAds</attr>
     <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
@@ -15,13 +14,10 @@
     <remove-node path="/api/package[starts-with(@name, 'com.mopub.mraid')]"/>
 
     <remove-node path="/api/package[@name='com.mopub.volley.toolbox']"/>
-    <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'VastVideoViewController')]" />
-    <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']/method[@name='getMethod' and count(parameter)=0]"/>
     <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']/method[@name='getMethod' and count(parameter)=0]"/>
     <remove-node path="/api/package[@name='com.mopub.common.event']/class[@name='BaseEvent.Builder']/method[@name='build' and count(parameter)=0]" />
     <remove-node path="/api/package[@name='com.mopub.common.event']/class[@name='EventSerializer']" />
 
-    <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'MraidActivity')]" />
     <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'Vast')]" />
     <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[starts-with(@name, 'Vast')]" />
     <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='HtmlInterstitial']"/>
@@ -29,15 +25,9 @@
     <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='VideoDownloader.VideoDownloaderListener']" name="visibility" />
 
     <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='BaseInterstitialActivity']" name="visibility">public</attr>
-    <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='VungleRewardedVideo']/method[@name='getLifecycleListener' and count(parameter)=0]" name="visibility">protected</attr>
-    
-    <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='AdColonyRewardedVideo']/method[@name='getAdNetworkId' and count(parameter)=0]" name="visibility">protected</attr>
-    <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='AdColonyRewardedVideo']/method[@name='checkAndInitializeSdk' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.util.Map&lt;java.lang.String, java.lang.Object&gt;'] and parameter[3][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]" name="visibility">protected</attr>
-    <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='AdColonyRewardedVideo']/method[@name='hasVideoAvailable' and count(parameter)=0]" name="visibility">protected</attr>
-    <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='AdColonyRewardedVideo']/method[@name='getLifecycleListener' and count(parameter)=0]" name="visibility">protected</attr>
-    <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='AdColonyRewardedVideo']/method[@name='showVideo' and count(parameter)=0]" name="visibility">protected</attr>
 
+    <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']/method[@name='compareTo']" />
+    
     <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']" />
     <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventInterstitialAdapter.CustomEventInterstitialAdapterListener']" />
-    <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventRewardedVideo.CustomEventRewardedVideoListener']" />
 </metadata>

@@ -9,9 +9,9 @@
     <RootNamespace>mopubandroidbinding</RootNamespace>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <AssemblyName>MoPubAndroid</AssemblyName>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,7 +50,7 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
-    <LibraryProjectZip Include="Jars\mopub-android-sdk-4.5.0.aar" />
+    <LibraryProjectZip Include="Jars\mopub-android-sdk-4.9.0.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,18 +68,18 @@
     <EmbeddedJar Include="Jars\mopub-volley-1.1.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\vungle-publisher-adaptive-id-3.3.4.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\nineoldandroids-2.4.0.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\javax.inject-1.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\dagger-1.2.2.jar" />
+    <EmbeddedReferenceJar Include="Jars\adcolony.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\adcolony.jar" />
+    <EmbeddedReferenceJar Include="Jars\vungle-publisher-adaptive-id-4.0.2.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedReferenceJar Include="Jars\dagger-2.4.jar" />
   </ItemGroup>
 </Project>
