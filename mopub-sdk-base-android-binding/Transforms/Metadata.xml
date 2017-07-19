@@ -6,7 +6,7 @@
   <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
 
   <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='BaseInterstitialActivity']" name="visibility">public</attr>
-
+  
   <!--resolve IComparable issue
   https://bugzilla.xamarin.com/show_bug.cgi?id=8112#c1 -->
   <add-node path="/api/package/class[implements[@name='java.lang.Comparable']]">
