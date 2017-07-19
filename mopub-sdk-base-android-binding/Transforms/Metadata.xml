@@ -6,18 +6,6 @@
   <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
 
   <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='BaseInterstitialActivity']" name="visibility">public</attr>
-  <!--  <attr path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventInterstitialAdapter.CustomEventInterstitialAdapterListener']" name="visibility">public</attr>
-  <attr path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventRewardedVideo.CustomEventRewardedVideoListener']" name="visibility">public</attr> -->
-
-  <!--add node to make AsyncTask works
-  https://stackoverflow.com/questions/43838615/xamarin-binding-jar-gives-error-does-not-implement-inherited-abstract-member-as -->
-  <add-node path="/api/package[@name='com.mopub.common']">
-    <class abstract="false" deprecated="not deprecated" final="false" name="UrlResolutionTask" static="true" visibility="public" extends="java.lang.Object"/>
-  </add-node>
-  <add-node path="/api/package[@name='com.mopub.mobileads']">
-    <class abstract="false" deprecated="not deprecated" final="false" name="VastVideoBlurLastVideoFrameTask" static="true" visibility="public" extends="java.lang.Object"/>
-    <class abstract="false" deprecated="not deprecated" final="false" name="VastXmlManagerAggregator" static="true" visibility="public" extends="java.lang.Object"/>
-  </add-node>
 
   <!--resolve IComparable issue
   https://bugzilla.xamarin.com/show_bug.cgi?id=8112#c1 -->
@@ -42,5 +30,15 @@
   <attr path="/api/package[@name='com.mopub.common.event']/class[@name='Event.Builder']/method[@name='build']" name="managedName">PrivateBuild</attr>
 
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastCompanionAdConfig']" />
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'MraidActivity')]" />
+  <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']" />
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'Vast')]" />
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[starts-with(@name, 'Vast')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.mopub.mraid')]"/>
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='VideoDownloader.VideoDownloaderListener']" />
+  <remove-node path="/api/package[@name='com.mopub.volley.toolbox']"/>
+  <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']/method[@name='getMethod' and count(parameter)=0]"/>
+  <remove-node path="/api/package[starts-with(@name, 'com.mopub.network')]"/>
+
 
 </metadata>
