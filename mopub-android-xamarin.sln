@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-android-binding", "mopub-sdk-android-binding\mopub-sdk-android-binding.csproj", "{7EB648A0-D2FE-49B5-B373-4E1B2C8AFF66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkAndroidBinding", "mopub-sdk-android-binding\MopubSdkAndroidBinding.csproj", "{7EB648A0-D2FE-49B5-B373-4E1B2C8AFF66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-banner-android-binding", "mopub-sdk-banner-android-binding\mopub-sdk-banner-android-binding.csproj", "{2986C071-B95E-48D1-84E7-03B77626DFCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkBannerAndroidBinding", "mopub-sdk-banner-android-binding\MopubSdkBannerAndroidBinding.csproj", "{2986C071-B95E-48D1-84E7-03B77626DFCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-base-android-binding", "mopub-sdk-base-android-binding\mopub-sdk-base-android-binding.csproj", "{2A8CB8AB-AC65-4924-9D1C-52F3AA76A6B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkBaseAndroidBinding", "mopub-sdk-base-android-binding\MopubSdkBaseAndroidBinding.csproj", "{2A8CB8AB-AC65-4924-9D1C-52F3AA76A6B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-interstitial-android-binding", "mopub-sdk-interstitial-android-binding\mopub-sdk-interstitial-android-binding.csproj", "{C7DC5CE7-C36C-45EF-B5F5-9E203AD09AA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkInterstitialAndroidBinding", "mopub-sdk-interstitial-android-binding\MopubSdkInterstitialAndroidBinding.csproj", "{C7DC5CE7-C36C-45EF-B5F5-9E203AD09AA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-native-static-android-binding", "mopub-sdk-native-static-android-binding\mopub-sdk-native-static-android-binding.csproj", "{94FBA3E2-68E5-465B-85BD-F7EC06397986}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkNativeStaticAndroidBinding", "mopub-sdk-native-static-android-binding\MopubSdkNativeStaticAndroidBinding.csproj", "{94FBA3E2-68E5-465B-85BD-F7EC06397986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-native-video-android-binding", "mopub-sdk-native-video-android-binding\mopub-sdk-native-video-android-binding.csproj", "{A35696CC-E87E-43B1-8265-10A7A8B3EBE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkNativeVideoAndroidBinding", "mopub-sdk-native-video-android-binding\MopubSdkNativeVideoAndroidBinding.csproj", "{A35696CC-E87E-43B1-8265-10A7A8B3EBE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mopub-sdk-rewardedvideo-android-binding", "mopub-sdk-rewardedvideo-android-binding\mopub-sdk-rewardedvideo-android-binding.csproj", "{C19FEA8C-B55E-4BDC-A4C1-B296810CA5F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkRewardeVideoAndroidBinding", "mopub-sdk-rewardedvideo-android-binding\MopubSdkRewardeVideoAndroidBinding.csproj", "{C19FEA8C-B55E-4BDC-A4C1-B296810CA5F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

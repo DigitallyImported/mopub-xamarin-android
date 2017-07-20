@@ -6,7 +6,7 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("mopub-sdk-banner-android-binding")]
+[assembly: AssemblyTitle("MopubSdkBannerAndroidBinding")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
