@@ -1,11 +1,8 @@
 ﻿<metadata>
   <attr path="/api/package[@name='com.mopub.common']" name="managedName">MoPub.Common</attr>
-  <attr path="/api/package[@name='com.mopub.common.event']" name="managedName">MoPub.Common.Events</attr>
   <attr path="/api/package[@name='com.mopub.exceptions']" name="managedName">MoPub.Exceptions</attr>
   <attr path="/api/package[@name='com.mopub.mobileads']" name="managedName">MoPub.MobileAds</attr>
   <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
-
-  <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='BaseInterstitialActivity']" name="visibility">public</attr>
   
   <!--resolve IComparable issue
   https://bugzilla.xamarin.com/show_bug.cgi?id=8112#c1 -->
@@ -21,24 +18,27 @@
     </method>
   </add-node>
 
-  <attr path="/api/package[@name='com.mopub.common.event']/class[@name='ErrorEvent.Builder']/method[@name='build']" name="final">true</attr>
-  <attr path="/api/package[@name='com.mopub.common.event']/class[@name='ErrorEvent.Builder']/method[@name='build']" name="visibility">private</attr>
-  <attr path="/api/package[@name='com.mopub.common.event']/class[@name='ErrorEvent.Builder']/method[@name='build']" name="managedName">PrivateBuild</attr>
+  <attr path="api/package[@name='com.mopub.volley']/interface[@name='Request.Method']" name="managedName">Request.MethodEnum</attr>
 
-  <attr path="/api/package[@name='com.mopub.common.event']/class[@name='Event.Builder']/method[@name='build']" name="final">true</attr>
-  <attr path="/api/package[@name='com.mopub.common.event']/class[@name='Event.Builder']/method[@name='build']" name="visibility">private</attr>
-  <attr path="/api/package[@name='com.mopub.common.event']/class[@name='Event.Builder']/method[@name='build']" name="managedName">PrivateBuild</attr>
+  <attr path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.common.privacy.SyncResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.mopub.network']/class[@name='AdRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.network.AdResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]" name="final">true</attr>
+  <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='com.mopub.volley.toolbox']/class[@name='ImageRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
 
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastCompanionAdConfig']" />
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'MraidActivity')]" />
-  <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']" />
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[starts-with(@name, 'Vast')]" />
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[starts-with(@name, 'Vast')]" />
-  <remove-node path="/api/package[starts-with(@name, 'com.mopub.mraid')]"/>
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='VideoDownloader.VideoDownloaderListener']" />
-  <remove-node path="/api/package[@name='com.mopub.volley.toolbox']"/>
-  <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']/method[@name='getMethod' and count(parameter)=0]"/>
-  <remove-node path="/api/package[starts-with(@name, 'com.mopub.network')]"/>
-
+  <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']"/>
+  
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastVideoBlurLastVideoFrameTask']"/>
+  <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']"/>
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastXmlManagerAggregator']"/>
+  
+  <remove-node path="/api/package[@name='com.mopub.volley.toolbox']/class[@name='JsonRequest']/method[@name='parseNetworkResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.volley.NetworkResponse']]"/>
+  <remove-node path="/api/package[@name='com.mopub.mraid']/class[@name='MraidNativeCommandHandler']"/>
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VideoDownloader']"/>
+  <remove-node path="/api/package[@name='com.mopub.mraid']/class[@name='MraidBridge']"/>
+  <remove-node path="/api/package[@name='com.mopub.common']/class[@name='AdvancedBiddingTokens']"/>
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastCompanionAdConfig']"/>
 
 </metadata>

@@ -17,5 +17,26 @@
 
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='ResponseBodyInterstitial']/method[@name='showInterstitial']" />
   <remove-node path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventInterstitialAdapter.CustomEventInterstitialAdapterListener']" />
+  <remove-node path="/api/package[@name='com.evernote.android.job.util']/class[@name='JobPreconditions']"/>
+  <remove-node path="/api/package[@name='com.tonyodev.fetch']/class[@name='Fetch']"/>
+  <remove-node path="/api/package[@name='okio']/class[@name='Buffer']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal.bind']/class[@name='CollectionTypeAdapterFactory.Adapter']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal.bind']/class[@name='DateTypeAdapter']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal.bind']/class[@name='MapTypeAdapterFactory.Adapter']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal.bind']/class[@name='SqlDateTypeAdapter']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal.bind']/class[@name='TimeTypeAdapter']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal.bind']/class[@name='TypeAdapters']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal']/class[@name='LinkedHashTreeMap']"/>
+  <remove-node path="/api/package[@name='com.google.gson.internal']/class[@name='LinkedTreeMap']"/>
+  <remove-node path="/api/package[@name='com.google.gson']/class[@name='JsonStreamParser']"/>
+  <remove-node path="/api/package[@name='com.vungle.warren.model']/class[@name='Advertisement.Checkpoint']"/>
+  <remove-node path="/api/package[@name='okhttp3.internal.ws']/class[@name='RealWebSocket']"/>
+  <remove-node path="/api/package[@name='okio']/class[@name='ByteString']"/>
+  <remove-node path="/api/package[@name='okio']/class[@name='Options']"/>
+  
+  
+  
+  <remove-node path="/api/package[@name='com.moat.analytics.mobile.vng']/class[@name='ReactiveVideoTrackerPlugin']"/>
+  
 
 </metadata>

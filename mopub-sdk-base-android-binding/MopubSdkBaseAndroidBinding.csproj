@@ -13,7 +13,7 @@
     <AssemblyName>MopubSdkBaseAndroidBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,8 +41,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\MoPub.Common.Events.Event.Builder.cs" />
-    <Compile Include="Additions\MoPub.Common.Events.ErrorEvent.Builder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,10 +57,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\mopub-volley-1.1.0.jar" />
+    <ReferenceJar Include="Jars\org.apache.http.legacy.jar" />
   </ItemGroup>
   <ItemGroup>
-    <ReferenceJar Include="Jars\org.apache.http.legacy.jar" />
+    <EmbeddedJar Include="Jars\mopub-volley-2.0.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
