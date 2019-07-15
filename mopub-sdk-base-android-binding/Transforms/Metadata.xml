@@ -17,7 +17,11 @@
       <parameter name="o2" type="java.lang.Object" />
     </method>
   </add-node>
-
+  <add-node path="/api/package/class[implements[@name='java.util.Iterator']]">
+    <method name="remove" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+    </method>
+  </add-node>
+  
   <attr path="api/package[@name='com.mopub.volley']/interface[@name='Request.Method']" name="managedName">Request.MethodEnum</attr>
 
   <attr path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.common.privacy.SyncResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
@@ -25,8 +29,12 @@
   
   <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]" name="final">true</attr>
   <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
-  
+  <attr path="/api/package[@name='com.mopub.network']/class[@name='MultiAdResponse']/method[@name='next' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
   <attr path="/api/package[@name='com.mopub.volley.toolbox']/class[@name='ImageRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='com.mopub.common']/interface[@name='AdapterConfigurationsInitializationListener']" name="name">IAdapterConfigurationsInitializationListener</attr>
+  <attr path="/api/package[@name='com.mopub.common']/class[@name='VisibilityTracker']" name="managedName">VisibilityController</attr>
 
   <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']"/>
   
