@@ -60,7 +60,7 @@
     <ReferenceJar Include="Jars\org.apache.http.legacy.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\mopub-volley-2.0.0.jar" />
+    <ReferenceJar Include="Jars\mopub-volley-2.1.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
