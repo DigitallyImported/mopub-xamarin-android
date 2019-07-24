@@ -1,9 +1,4 @@
 ﻿<metadata>
-  <attr path="/api/package[@name='com.mopub.common']" name="managedName">MoPub.Common</attr>
-  <attr path="/api/package[@name='com.mopub.exceptions']" name="managedName">MoPub.Exceptions</attr>
-  <attr path="/api/package[@name='com.mopub.mobileads']" name="managedName">MoPub.MobileAds</attr>
-  <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
-  
   <!--resolve IComparable issue
   https://bugzilla.xamarin.com/show_bug.cgi?id=8112#c1 -->
   <add-node path="/api/package/class[implements[@name='java.lang.Comparable']]">
