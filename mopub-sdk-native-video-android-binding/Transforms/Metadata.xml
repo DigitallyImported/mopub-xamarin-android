@@ -1,11 +1,4 @@
 ﻿<metadata>
-  <attr path="/api/package[@name='com.mopub.common']" name="managedName">MoPub.Common</attr>
-  <attr path="/api/package[@name='com.mopub.common.event']" name="managedName">MoPub.Common.Events</attr>
-  <attr path="/api/package[@name='com.mopub.exceptions']" name="managedName">MoPub.Exceptions</attr>
-  <attr path="/api/package[@name='com.mopub.mobileads']" name="managedName">MoPub.MobileAds</attr>
-  <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
-
-  <attr path="/api/package[@name='com.mopub.mobileads']/class[@name='BaseInterstitialActivity']" name="visibility">public</attr>
   <!--  <attr path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventInterstitialAdapter.CustomEventInterstitialAdapterListener']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.mopub.mobileads']/interface[@name='CustomEventRewardedVideo.CustomEventRewardedVideoListener']" name="visibility">public</attr> -->
 </metadata>

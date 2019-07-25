@@ -50,6 +50,16 @@
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mopub-sdk-android-binding\MopubSdkAndroidBinding.csproj">
+      <Project>{7eb648a0-d2fe-49b5-b373-4e1b2c8aff66}</Project>
+      <Name>MopubSdkAndroidBinding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mopub-sdk-base-android-binding\MopubSdkBaseAndroidBinding.csproj">
+      <Project>{2a8cb8ab-ac65-4924-9d1c-52f3aa76a6b8}</Project>
+      <Name>MopubSdkBaseAndroidBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -41,6 +41,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Com.Mopub.Network\MultiAdRequest.cs" />
+    <Compile Include="Com.Mopub.Network\TrackingRequest.cs" />
+    <Compile Include="Com.Mopub.Volley.Toolbox\StringRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,10 +60,16 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ReferenceJar Include="Jars\org.apache.http.legacy.jar" />
+    <EmbeddedJar Include="Jars\org.apache.http.legacy.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\mopub-volley-2.1.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mopub-sdk-android-binding\MopubSdkAndroidBinding.csproj">
+      <Project>{7eb648a0-d2fe-49b5-b373-4e1b2c8aff66}</Project>
+      <Name>MopubSdkAndroidBinding</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

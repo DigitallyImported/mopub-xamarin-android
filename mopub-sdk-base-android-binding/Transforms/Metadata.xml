@@ -20,7 +20,6 @@
   <attr path="api/package[@name='com.mopub.volley']/interface[@name='Request.Method']" name="managedName">Request.MethodEnum</attr>
 
   <attr path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.common.privacy.SyncResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
-  <attr path="/api/package[@name='com.mopub.network']/class[@name='AdRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.network.AdResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
   
   <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]" name="final">true</attr>
   <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
@@ -31,8 +30,6 @@
   <attr path="/api/package[@name='com.mopub.common']/interface[@name='AdapterConfigurationsInitializationListener']" name="name">IAdapterConfigurationsInitializationListener</attr>
   <attr path="/api/package[@name='com.mopub.common']/class[@name='VisibilityTracker']" name="managedName">VisibilityController</attr>
 
-  <remove-node path="/api/package[@name='com.mopub.volley']/class[@name='Request']"/>
-  
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastVideoBlurLastVideoFrameTask']"/>
   <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']"/>
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastXmlManagerAggregator']"/>
@@ -41,7 +38,21 @@
   <remove-node path="/api/package[@name='com.mopub.mraid']/class[@name='MraidNativeCommandHandler']"/>
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VideoDownloader']"/>
   <remove-node path="/api/package[@name='com.mopub.mraid']/class[@name='MraidBridge']"/>
-  <remove-node path="/api/package[@name='com.mopub.common']/class[@name='AdvancedBiddingTokens']"/>
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastCompanionAdConfig']"/>
-
+  <remove-node path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]"/>
+  <remove-node
+      path="/api/package[@name='com.mopub.volley']/class[@name='RequestQueue']/method[@name='addRequestEventListener' and count(parameter)=1 and parameter[1][@type='com.mopub.volley.RequestQueue.RequestEventListener']]"/>
+  <remove-node
+      path="/api/package[@name='com.mopub.volley']/class[@name='RequestQueue']/method[@name='removeRequestEventListener' and count(parameter)=1 and parameter[1][@type='com.mopub.volley.RequestQueue.RequestEventListener']]"/>
+  
+  <remove-node path="/api/package[@name='android.net.http']/class[@name='RequestHandle']/constructor[@name='RequestHandle' and count(parameter)=8 and parameter[1][@type='android.net.http.RequestQueue'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='android.net.compatibility.WebAddress'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;'] and parameter[6][@type='java.io.InputStream'] and parameter[7][@type='int'] and parameter[8][@type='android.net.http.Request']]" />
+  <remove-node path="/api/package[@name='android.net.http']/class[@name='RequestHandle']/constructor[@name='RequestHandle' and count(parameter)=9 and parameter[1][@type='android.net.http.RequestQueue'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='android.net.compatibility.WebAddress'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;'] and parameter[6][@type='java.io.InputStream'] and parameter[7][@type='int'] and parameter[8][@type='android.net.http.Request'] and parameter[9][@type='android.net.http.Connection']]" />
+  <remove-node path="/api/package[@name='android.net.http']/class[@name='RequestQueue']" />
+  <remove-node path="/api/package[@name='org.apache.commons.codec']/class[@name='StringEncoderComparator']" />
+  <remove-node path="/api/package[@name='org.apache.http.entity']/class[@name='BasicHttpEntity']" />
+  <remove-node path="/api/package[@name='org.apache.http.impl.client']/class[@name='RequestWrapper']" />
+  <remove-node path="/api/package[@name='org.apache.http.impl.conn']/class[@name='DefaultClientConnection']" />
+  <remove-node path="/api/package[@name='org.apache.http.impl.cookie']/class[@name='BasicClientCookie']" />
+  <remove-node path="/api/package[@name='org.apache.http.impl.cookie']/class[@name='BasicClientCookie2']" />
+  <remove-node path="/api/package[@name='org.apache.http.impl.client']/class[@name='EntityEnclosingRequestWrapper']" />
 </metadata>
