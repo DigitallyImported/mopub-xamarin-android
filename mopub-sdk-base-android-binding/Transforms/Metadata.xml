@@ -30,6 +30,7 @@
   <attr path="/api/package[@name='com.mopub.common']/interface[@name='AdapterConfigurationsInitializationListener']" name="name">IAdapterConfigurationsInitializationListener</attr>
   <attr path="/api/package[@name='com.mopub.common']/class[@name='VisibilityTracker']" name="managedName">VisibilityController</attr>
 
+  <remove-node path="/api/package[@name='com.mopub.volley']/interface[@name='Request.NetworkRequestCompleteListener']" />
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastVideoBlurLastVideoFrameTask']"/>
   <remove-node path="/api/package[@name='com.mopub.common']/class[@name='UrlResolutionTask']"/>
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastXmlManagerAggregator']"/>
