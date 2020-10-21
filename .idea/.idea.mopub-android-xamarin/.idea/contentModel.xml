@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\aried\AppData\Local\Android\Sdk\platforms\android-27\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\aried\AppData\Local\Android\Sdk\platforms\android-29\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\aried\AppData\Local\Android\Sdk\sources\android-27" t="IncludeRecursive" />
+    <e p="C:\Users\aried\AppData\Local\Android\Sdk\sources\android-29" t="IncludeRecursive" />
+    <e p="C:\Users\aried\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aried\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_mopub-android-xamarin.1699802587.00" t="ExcludeRecursive" />
+    <e p="C:\Users\aried\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\aried\Projects\audioaddict\mopub-xamarin-android" t="IncludeFlat">
+      <e p="mopub-android-xamarin.sln" t="IncludeFlat" />
+      <e p="mopub-sdk-android-binding" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="mopub-sdk-release.aar" t="Include" />
+        </e>
+        <e p="MopubSdkAndroidBinding.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="mopub-sdk-banner-android-binding" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="mopub-sdk-banner-release.aar" t="Include" />
+        </e>
+        <e p="MopubSdkBannerAndroidBinding.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="mopub-sdk-base-android-binding" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="mopub-sdk-base-release.aar" t="Include" />
+          <e p="mopub-volley-2.1.0.jar" t="Include" />
+          <e p="org.apache.http.legacy.jar" t="Include" />
+        </e>
+        <e p="MopubSdkBaseAndroidBinding.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="mopub-sdk-interstitial-android-binding" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="android-job-1.2.0.jar" t="Include" />
+          <e p="cat-1.0.5.jar" t="Include" />
+          <e p="converter-gson-2.2.0.jar" t="Include" />
+          <e p="fetch-1.1.5.jar" t="Include" />
+          <e p="gson-2.7.jar" t="Include" />
+          <e p="logging-interceptor-3.7.0.jar" t="Include" />
+          <e p="mopub-sdk-fullscreen-release.aar" t="Include" />
+          <e p="okhttp-3.7.0.jar" t="Include" />
+          <e p="retrofit-2.2.0.jar" t="Include" />
+          <e p="VNG-moat-mobile-app-kit-2.2.0.jar" t="Include" />
+          <e p="vungle-android-sdk-6.2.5.jar" t="Include" />
+        </e>
+        <e p="MopubSdkInterstitialAndroidBinding.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="__AndroidLibraryProjects__.zip" t="Include" />
+            <e p="generated" t="Include">
+              <e p="src" t="Include">
+                <e p="__NamespaceMapping__.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.BuildConfig.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.JobApi.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.JobBootReceiver.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.JobConfig.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.JobIdsInternal.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.JobManagerCreateException.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.JobProxyIllegalStateException.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.Util.BatteryStatus.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.Util.Device.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.Util.IClock.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.Util.IJobLogger.cs" t="Include" />
+                <e p="Com.Evernote.Android.Job.V14.PlatformAlarmReceiver.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.ExposeAttribute.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.IExpose.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.IJsonAdapter.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.ISerializedName.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.ISince.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.IUntil.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.JsonAdapterAttribute.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.SerializedNameAttribute.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.SinceAttribute.cs" t="Include" />
+                <e p="Com.Google.Gson.Annotations.UntilAttribute.cs" t="Include" />
+                <e p="Com.Google.Gson.FieldAttributes.cs" t="Include" />
+                <e p="Com.Google.Gson.FieldNamingPolicy.cs" t="Include" />
+                <e p="Com.Google.Gson.Gson.cs" t="Include" />
+                <e p="Com.Google.Gson.GsonBuilder.cs" t="Include" />
+                <e p="Com.Google.Gson.IExclusionStrategy.cs" t="Include" />
+                <e p="Com.Google.Gson.IFieldNamingStrategy.cs" t="Include" />
+                <e p="Com.Google.Gson.IInstanceCreator.cs" t="Include" />
+                <e p="Com.Google.Gson.IJsonDeserializationContext.cs" t="Include" />
+                <e p="Com.Google.Gson.IJsonDeserializer.cs" t="Include" />
+                <e p="Com.Google.Gson.IJsonSerializationContext.cs" t="Include" />
+                <e p="Com.Google.Gson.IJsonSerializer.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.ArrayTypeAdapter.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.CollectionTypeAdapterFactory.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.JsonAdapterAnnotationTypeAdapterFactory.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.JsonTreeReader.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.JsonTreeWriter.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.MapTypeAdapterFactory.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.ObjectTypeAdapter.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.ReflectiveTypeAdapterFactory.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.TreeTypeAdapter.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Bind.Util.ISO8601Utils.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.ConstructorConstructor.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Excluder.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.IObjectConstructor.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.JsonReaderInternalAccess.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.LazilyParsedNumber.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Primitives.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.Streams.cs" t="Include" />
+                <e p="Com.Google.Gson.Internal.UnsafeAllocator.cs" t="Include" />
+                <e p="Com.Google.Gson.ITypeAdapterFactory.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonArray.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonElement.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonIOException.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonNull.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonObject.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonParseException.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonParser.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonPrimitive.cs" t="Include" />
+                <e p="Com.Google.Gson.JsonSyntaxException.cs" t="Include" />
+                <e p="Com.Google.Gson.LongSerializationPolicy.cs" t="Include" />
+                <e p="Com.Google.Gson.Reflect.TypeToken.cs" t="Include" />
+                <e p="Com.Google.Gson.Stream.JsonReader.cs" t="Include" />
+                <e p="Com.Google.Gson.Stream.JsonToken.cs" t="Include" />
+                <e p="Com.Google.Gson.Stream.JsonWriter.cs" t="Include" />
+                <e p="Com.Google.Gson.Stream.MalformedJsonException.cs" t="Include" />
+                <e p="Com.Google.Gson.TypeAdapter.cs" t="Include" />
+                <e p="Com.Moat.Analytics.Mobile.Vng.INativeDisplayTracker.cs" t="Include" />
+                <e p="Com.Moat.Analytics.Mobile.Vng.INativeVideoTracker.cs" t="Include" />
+                <e p="Com.Moat.Analytics.Mobile.Vng.IReactiveVideoTracker.cs" t="Include" />
+                <e p="Com.Moat.Analytics.Mobile.Vng.IWebAdTracker.cs" t="Include" />
+                <e p="Com.Moat.Analytics.Mobile.Vng.MoatAdEvent.cs" t="Include" />
+                <e p="Com.Moat.Analytics.Mobile.Vng.MoatOptions.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.BuildConfig.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Callback.IFetchCall.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Exception.DownloadInterruptedException.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Exception.EnqueueException.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Exception.InvalidStatusException.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Exception.NotUsableException.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Listener.IFetchListener.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Request.Header.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Request.Request.cs" t="Include" />
+                <e p="Com.Tonyodev.Fetch.Request.RequestInfo.cs" t="Include" />
+                <e p="Com.Vungle.Warren.AdConfig.cs" t="Include" />
+                <e p="Com.Vungle.Warren.BuildConfig.cs" t="Include" />
+                <e p="Com.Vungle.Warren.DirectDownloadAdapter.cs" t="Include" />
+                <e p="Com.Vungle.Warren.DirectDownloadStrategy.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Error.VungleError.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Error.VungleException.cs" t="Include" />
+                <e p="Com.Vungle.Warren.IDownloadStrategy.cs" t="Include" />
+                <e p="Com.Vungle.Warren.IInitCallback.cs" t="Include" />
+                <e p="Com.Vungle.Warren.ILoadAdCallback.cs" t="Include" />
+                <e p="Com.Vungle.Warren.IPlayAdCallback.cs" t="Include" />
+                <e p="Com.Vungle.Warren.IVungleNativeAd.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Model.Advertisement.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Model.Cookie.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Model.Placement.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Model.Report.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Network.FetchDownloader.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Network.IDownloader.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Network.VungleApiClient.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Persistence.GraphicDesigner.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Persistence.IDesigner.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Persistence.IMemorable.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Persistence.IPersistor.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Persistence.MemoryUtils.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Persistence.PepperidgeFarm.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Presenter.AdvertisementPresenterFactory.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Presenter.IAdvertisementPresenter.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Presenter.LocalAdPresenter.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Presenter.WebAdPresenter.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Tasks.Economy.cs" t="Include" />
+                <e p="Com.Vungle.Warren.UI.IAdView.cs" t="Include" />
+                <e p="Com.Vungle.Warren.UI.JavascriptBridge.cs" t="Include" />
+                <e p="Com.Vungle.Warren.UI.VungleActivity.cs" t="Include" />
+                <e p="Com.Vungle.Warren.UI.VungleNativeView.cs" t="Include" />
+                <e p="Com.Vungle.Warren.UI.VungleWebClient.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Utility.FileUtility.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Utility.UnzipUtility.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Utility.ViewUtility.cs" t="Include" />
+                <e p="Com.Vungle.Warren.Vungle.cs" t="Include" />
+                <e p="Java.Interop.__TypeRegistrations.cs" t="Include" />
+                <e p="Okhttp3.Address.cs" t="Include" />
+                <e p="Okhttp3.CacheControl.cs" t="Include" />
+                <e p="Okhttp3.Challenge.cs" t="Include" />
+                <e p="Okhttp3.CipherSuite.cs" t="Include" />
+                <e p="Okhttp3.ConnectionPool.cs" t="Include" />
+                <e p="Okhttp3.ConnectionSpec.cs" t="Include" />
+                <e p="Okhttp3.Cookie.cs" t="Include" />
+                <e p="Okhttp3.Credentials.cs" t="Include" />
+                <e p="Okhttp3.Dispatcher.cs" t="Include" />
+                <e p="Okhttp3.Handshake.cs" t="Include" />
+                <e p="Okhttp3.Headers.cs" t="Include" />
+                <e p="Okhttp3.IConnection.cs" t="Include" />
+                <e p="Okhttp3.IDns.cs" t="Include" />
+                <e p="Okhttp3.Internal.Cache.CacheStrategy.cs" t="Include" />
+                <e p="Okhttp3.Internal.Connection.ConnectInterceptor.cs" t="Include" />
+                <e p="Okhttp3.Internal.Connection.ConnectionSpecSelector.cs" t="Include" />
+                <e p="Okhttp3.Internal.Connection.RouteDatabase.cs" t="Include" />
+                <e p="Okhttp3.Internal.Connection.RouteException.cs" t="Include" />
+                <e p="Okhttp3.Internal.Connection.RouteSelector.cs" t="Include" />
+                <e p="Okhttp3.Internal.Connection.StreamAllocation.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.CallServerInterceptor.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.HttpDate.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.HttpHeaders.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.HttpMethod.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.IUnrepeatableRequestBody.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.RealInterceptorChain.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.RequestLine.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.RetryAndFollowUpInterceptor.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http.StatusLine.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http2.ConnectionShutdownException.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http2.ErrorCode.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http2.Http2.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http2.Settings.cs" t="Include" />
+                <e p="Okhttp3.Internal.Http2.StreamResetException.cs" t="Include" />
+                <e p="Okhttp3.Internal.Internal.cs" t="Include" />
+                <e p="Okhttp3.Internal.NamedRunnable.cs" t="Include" />
+                <e p="Okhttp3.Internal.Platform.Platform.cs" t="Include" />
+                <e p="Okhttp3.Internal.Tls.BasicCertificateChainCleaner.cs" t="Include" />
+                <e p="Okhttp3.Internal.Tls.CertificateChainCleaner.cs" t="Include" />
+                <e p="Okhttp3.Internal.Tls.OkHostnameVerifier.cs" t="Include" />
+                <e p="Okhttp3.Internal.Tls.TrustRootIndex.cs" t="Include" />
+                <e p="Okhttp3.Internal.Version.cs" t="Include" />
+                <e p="Okhttp3.Internal.WS.WebSocketProtocol.cs" t="Include" />
+                <e p="Okhttp3.MediaType.cs" t="Include" />
+                <e p="Okhttp3.OkHttpClient.cs" t="Include" />
+                <e p="Okhttp3.Protocol.cs" t="Include" />
+                <e p="Okhttp3.Request.cs" t="Include" />
+                <e p="Okhttp3.Route.cs" t="Include" />
+                <e p="Okhttp3.TlsVersion.cs" t="Include" />
+                <e p="Retrofit2.Converter.Gson.GsonConverterFactory.cs" t="Include" />
+                <e p="Retrofit2.Http.BodyAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.DELETEAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.FieldAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.FieldMapAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.FormUrlEncodedAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.GETAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.HEADAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.HeaderAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.HeaderMapAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.HeadersAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.HTTPAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.IBody.cs" t="Include" />
+                <e p="Retrofit2.Http.IDELETE.cs" t="Include" />
+                <e p="Retrofit2.Http.IField.cs" t="Include" />
+                <e p="Retrofit2.Http.IFieldMap.cs" t="Include" />
+                <e p="Retrofit2.Http.IFormUrlEncoded.cs" t="Include" />
+                <e p="Retrofit2.Http.IGET.cs" t="Include" />
+                <e p="Retrofit2.Http.IHEAD.cs" t="Include" />
+                <e p="Retrofit2.Http.IHeader.cs" t="Include" />
+                <e p="Retrofit2.Http.IHeaderMap.cs" t="Include" />
+                <e p="Retrofit2.Http.IHeaders.cs" t="Include" />
+                <e p="Retrofit2.Http.IHTTP.cs" t="Include" />
+                <e p="Retrofit2.Http.IMultipart.cs" t="Include" />
+                <e p="Retrofit2.Http.IOPTIONS.cs" t="Include" />
+                <e p="Retrofit2.Http.IPart.cs" t="Include" />
+                <e p="Retrofit2.Http.IPartMap.cs" t="Include" />
+                <e p="Retrofit2.Http.IPATCH.cs" t="Include" />
+                <e p="Retrofit2.Http.IPath.cs" t="Include" />
+                <e p="Retrofit2.Http.IPOST.cs" t="Include" />
+                <e p="Retrofit2.Http.IPUT.cs" t="Include" />
+                <e p="Retrofit2.Http.IQuery.cs" t="Include" />
+                <e p="Retrofit2.Http.IQueryMap.cs" t="Include" />
+                <e p="Retrofit2.Http.IQueryName.cs" t="Include" />
+                <e p="Retrofit2.Http.IStreaming.cs" t="Include" />
+                <e p="Retrofit2.Http.IUrl.cs" t="Include" />
+                <e p="Retrofit2.Http.MultipartAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.OPTIONSAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.PartAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.PartMapAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.PATCHAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.PathAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.POSTAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.PUTAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.QueryAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.QueryMapAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.QueryNameAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.StreamingAttribute.cs" t="Include" />
+                <e p="Retrofit2.Http.UrlAttribute.cs" t="Include" />
+                <e p="Retrofit2.HttpException.cs" t="Include" />
+                <e p="Retrofit2.ICall.cs" t="Include" />
+                <e p="Retrofit2.ICallAdapter.cs" t="Include" />
+                <e p="Retrofit2.ICallback.cs" t="Include" />
+                <e p="Retrofit2.IConverter.cs" t="Include" />
+                <e p="Retrofit2.Response.cs" t="Include" />
+                <e p="Retrofit2.Retrofit.cs" t="Include" />
+              </e>
+            </e>
+            <e p="library_project_jars" t="Include">
+              <e p="classes.jar" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="mopub-sdk-native-static-android-binding" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="mopub-sdk-native-static-release.aar" t="Include" />
+        </e>
+        <e p="MopubSdkNativeStaticAndroidBinding.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="mopub-sdk-native-video-android-binding" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="mopub-sdk-native-video-release.aar" t="Include" />
+        </e>
+        <e p="MopubSdkNativeVideoAndroidBinding.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
