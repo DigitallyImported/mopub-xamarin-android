@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkAndroidBinding", "mopub-sdk-android-binding\MopubSdkAndroidBinding.csproj", "{7EB648A0-D2FE-49B5-B373-4E1B2C8AFF66}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkNativeVideoAndroidBinding", "mopub-sdk-native-video-android-binding\MopubSdkNativeVideoAndroidBinding.csproj", "{A35696CC-E87E-43B1-8265-10A7A8B3EBE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkRewardeVideoAndroidBinding", "mopub-sdk-rewardedvideo-android-binding\MopubSdkRewardeVideoAndroidBinding.csproj", "{C19FEA8C-B55E-4BDC-A4C1-B296810CA5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubVolleyBinding", "MopubVolleyBinding\MopubVolleyBinding.csproj", "{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +53,15 @@ Global
 		{C19FEA8C-B55E-4BDC-A4C1-B296810CA5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C19FEA8C-B55E-4BDC-A4C1-B296810CA5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C19FEA8C-B55E-4BDC-A4C1-B296810CA5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9CF70C6-C2ED-452A-8E57-962EA9F4EAE6}
 	EndGlobalSection
 EndGlobal
