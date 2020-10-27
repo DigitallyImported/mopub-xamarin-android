@@ -42,7 +42,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\mopub-sdk-interstitial-release.aar" />
+    <LibraryProjectZip Include="Jars\mopub-sdk-fullscreen-release.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml">
