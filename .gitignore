@@ -115,3 +115,5 @@ Components
 .DS_Store
 .stversions
 .stfolder
+
+.idea/

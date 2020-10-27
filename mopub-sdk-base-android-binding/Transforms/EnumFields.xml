@@ -11,4 +11,10 @@
     <field jni-name="Fragment_tag" clr-name="Tag" value="2" />
   </mapping>
   -->
+
+  <mapping jni-class="com/mopub/mobileads/VastTracker$MessageType" clr-enum-type="Mopub.Mobileads.VastTrackerMessageType">
+    <field jni-name="TRACKING_URL" clr-name="TrackingUrl" value="0" />
+    <field jni-name="QUARTILE_EVENT" clr-name="QuartileEvent" value="1" />
+  </mapping>
+
 </enum-field-mappings>

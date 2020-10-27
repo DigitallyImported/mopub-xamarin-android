@@ -59,7 +59,10 @@
     <ReferenceJar Include="Jars\org.apache.http.legacy.jar" />
   </ItemGroup>
   <ItemGroup>
-    <ReferenceJar Include="Jars\mopub-volley-2.1.0.jar" />
+    <ProjectReference Include="..\MopubVolleyBinding\MopubVolleyBinding.csproj">
+      <Project>{d5e1d972-add9-44fd-9631-54bd4899c5bc}</Project>
+      <Name>MopubVolleyBinding</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\mopub-sdk-base-release.aar" />

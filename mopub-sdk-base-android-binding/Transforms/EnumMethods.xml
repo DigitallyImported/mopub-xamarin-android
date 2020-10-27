@@ -10,4 +10,9 @@
     <method jni-name="writeToParcel" parameter="flags" clr-enum-type="Android.OS.ParcelableWriteFlags" />
   </mapping>
   -->
+
+  <mapping jni-class="com/mopub/mobileads/map/realreach/VastAbsoluteProgressTracker">
+    <constructor parameter="p0" clr-enum-type="Mopub.Mobileads.VastTrackerMessageType" />
+  </mapping>
+
 </enum-method-mappings>
