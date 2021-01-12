@@ -5,18 +5,24 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C7DC5CE7-C36C-45EF-B5F5-9E203AD09AA0}</ProjectGuid>
+    <ProjectGuid>{F6E8006A-5BBE-4915-BD87-FAAB4D6DC0DC}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MopubSdkInterstitialAndroidBinding</RootNamespace>
-    <AssemblyName>MopubSdkInterstitialAndroidBinding</AssemblyName>
+    <RootNamespace>MopubAdMobBinding</RootNamespace>
+    <AssemblyName>MopubAdMobBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
+    <Deterministic>True</Deterministic>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+    <DebugType>portable</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -24,7 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -42,24 +48,12 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\mopub-sdk-interstitial-release.aar" />
+    <LibraryProjectZip Include="Jars\mopub-admob-adapters-17.2.1.0.aar" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="Transforms\Metadata.xml">
-      <SubType>Designer</SubType>
-    </TransformFile>
+    <TransformFile Include="Transforms\Metadata.xml" />
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\mopub-sdk-base-android-binding\MopubSdkBaseAndroidBinding.csproj">
-      <Project>{2a8cb8ab-ac65-4924-9d1c-52f3aa76a6b8}</Project>
-      <Name>MopubSdkBaseAndroidBinding</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MopubVolleyBinding\MopubVolleyBinding.csproj">
-      <Project>{d5e1d972-add9-44fd-9631-54bd4899c5bc}</Project>
-      <Name>MopubVolleyBinding</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

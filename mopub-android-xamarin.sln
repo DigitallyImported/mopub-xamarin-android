@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubSdkRewardeVideoAndroid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubVolleyBinding", "MopubVolleyBinding\MopubVolleyBinding.csproj", "{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MopubAdMobBinding", "MopubAdMobBinding\MopubAdMobBinding.csproj", "{F6E8006A-5BBE-4915-BD87-FAAB4D6DC0DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E1D972-ADD9-44FD-9631-54BD4899C5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E8006A-5BBE-4915-BD87-FAAB4D6DC0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E8006A-5BBE-4915-BD87-FAAB4D6DC0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E8006A-5BBE-4915-BD87-FAAB4D6DC0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E8006A-5BBE-4915-BD87-FAAB4D6DC0DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
