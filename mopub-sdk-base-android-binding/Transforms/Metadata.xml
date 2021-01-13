@@ -2,7 +2,6 @@
   <attr path="/api/package[@name='com.mopub.common']" name="managedName">MoPub.Common</attr>
   <attr path="/api/package[@name='com.mopub.exceptions']" name="managedName">MoPub.Exceptions</attr>
   <attr path="/api/package[@name='com.mopub.mobileads']" name="managedName">MoPub.MobileAds</attr>
-  <attr path="/api/package[@name='com.mopub.volley']" name="managedName">MoPub.Volley</attr>
 
   <!--resolve IComparable issue
   https://bugzilla.xamarin.com/show_bug.cgi?id=8112#c1 -->
@@ -22,44 +21,29 @@
     </method>
   </add-node>
 
-  <add-node path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']">
-    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-      <parameter name="o" type="java.lang.Object" />
-    </method>
+  <add-node path="/api/package[@name='com.mopub.common.privacy']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="PersonalInfoManager" static="true" visibility="public" extends="java.lang.Object">
+      <constructor deprecated="not deprecated" final="false" name="PersonalInfoManager" static="false" type="com.mopub.common.privacy.PersonalInfoManager" visibility="public">
+        <parameter name="context" type="android.content.Context"/>
+        <parameter name="adUnitId" type="java.lang.String"/>
+        <parameter name="sdkInitializationListener" type="com.mopub.common.SdkInitializationListener"/>
+      </constructor>
+      <method name="grantConsent" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public"></method>
+      <method name="revokeConsent" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public"></method>
+      <method name="getConsentData" return="com.mopub.common.privacy.ConsentData" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public"></method>
+    </class>
   </add-node>
 
-  <add-node path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']">
-    <method name="deliverResponse" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="protected">
-      <parameter name="p0" type="java.lang.Object" />
-    </method>
+  <add-node path="/api/package[@name='com.mopub.mobileads']">
+    <class abstract="false" deprecated="not deprecated" final="false" name="MoPubConversionTracker" static="true" visibility="public" extends="java.lang.Object">
+      <constructor deprecated="not deprecated" final="false" name="MoPubConversionTracker" static="false" type="com.mopub.mobileads.MoPubConversionTracker" visibility="public">
+        <parameter name="context" type="android.content.Context"/>
+      </constructor>
+      <method name="reportAppOpen" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public"></method>
+    </class>
   </add-node>
 
-  <add-node path="/api/package[@name='com.mopub.network']/class[@name='MultiAdRequest']">
-    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-      <parameter name="o" type="java.lang.Object" />
-    </method>
-  </add-node>
-
-  <add-node path="/api/package[@name='com.mopub.network']/class[@name='MultiAdRequest']">
-    <method name="deliverResponse" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="protected">
-      <parameter name="p0" type="java.lang.Object" />
-    </method>
-  </add-node>
-
-  <add-node path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']">
-    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
-      <parameter name="o" type="java.lang.Object" />
-    </method>
-  </add-node>
-
-  <add-node path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']">
-    <method name="deliverResponse" return="void" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="protected">
-      <parameter name="p0" type="java.lang.Object" />
-    </method>
-  </add-node>
-
-  <attr path="api/package[@name='com.mopub.volley']/interface[@name='Request.Method']" name="managedName">Request.MethodEnum</attr>
-
+  <attr path="/api/package[@name='com.mopub.mraid']/class[@name='MraidController']/method[@name='createWebView' and count(parameter)=0]" name="visibility">protected</attr>
   <attr path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.common.privacy.SyncResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
   <attr path="/api/package[@name='com.mopub.network']/class[@name='AdRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.network.AdResponse']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
 
@@ -67,7 +51,7 @@
   <attr path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
   <attr path="/api/package[@name='com.mopub.network']/class[@name='MultiAdResponse']/method[@name='next' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
 
-  <attr path="/api/package[@name='com.mopub.volley.toolbox']/class[@name='ImageRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.mopub.mraid']/class[@name='MraidVideoViewController']/method[@name='getVideoView' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
 
   <attr path="/api/package[@name='com.mopub.common']/interface[@name='AdapterConfigurationsInitializationListener']" name="name">IAdapterConfigurationsInitializationListener</attr>
   <attr path="/api/package[@name='com.mopub.common']/class[@name='VisibilityTracker']" name="managedName">VisibilityController</attr>
@@ -85,10 +69,9 @@
   <remove-node path="/api/package[@name='com.mopub.common']/class[@name='AdvancedBiddingTokens']"/>
   <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastCompanionAdConfig']"/>
 
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastAbsoluteProgressTracker']" />
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastFractionalProgressTracker']" />
-  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastTracker']" />
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastTracker']/constructor[@name='VastTracker' and count(parameter)=2 and parameter[1][@type='com.mopub.mobileads.VastTracker.MessageType'] and parameter[2][@type='java.lang.String']]"/>
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastAbsoluteProgressTracker']/constructor[@name='VastAbsoluteProgressTracker' and count(parameter)=3 and parameter[1][@type='com.mopub.mobileads.VastTracker.MessageType'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int']]"/>
+  <remove-node path="/api/package[@name='com.mopub.mobileads']/class[@name='VastFractionalProgressTracker']/constructor[@name='VastFractionalProgressTracker' and count(parameter)=3 and parameter[1][@type='com.mopub.mobileads.VastTracker.MessageType'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='float']]"/>
+  <remove-node path="/api/package[@name='com.mopub.mraid']/class[@name='MraidVideoViewController']"/>
 
-  <remove-node path="/api/package[@name='com.mopub.network']/class[@name='TrackingRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='java.lang.Void']]" />
-  <remove-node path="/api/package[@name='com.mopub.common.privacy']/class[@name='SyncRequest']/method[@name='deliverResponse' and count(parameter)=1 and parameter[1][@type='com.mopub.common.privacy.SyncResponse']]" />
 </metadata>
